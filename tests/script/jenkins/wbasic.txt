@@ -1,6 +1,6 @@
 wtest.bat -f issue/TD-2677.sim
 wtest.bat -f issue/TD-2680.sim
-wtest.bat -f issue/TD-2713.sim
+#wtest.bat -f issue/TD-2713.sim
 
 wtest.bat -f general/alter/cached_schema_after_alter.sim
 wtest.bat -f general/alter/count.sim
@@ -286,7 +286,7 @@ wtest.bat -f unique/dnode/balance1.sim
 wtest.bat -f unique/dnode/balance2.sim
 wtest.bat -f unique/dnode/balance3.sim
 wtest.bat -f unique/dnode/balancex.sim
-wtest.bat -f unique/dnode/data1.sim
+#wtest.bat -f unique/dnode/data1.sim
 wtest.bat -f unique/dnode/m2.sim
 wtest.bat -f unique/dnode/m3.sim
 wtest.bat -f unique/dnode/lossdata.sim
