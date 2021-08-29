@@ -45,7 +45,7 @@ SCRIPT_DIR=`dirname $0`
 cd $SCRIPT_DIR/../
 SCRIPT_DIR=`pwd`
 
-IN_TDINTERNAL="tmpjck"
+IN_TDINTERNAL="community"
 if [[ "$SCRIPT_DIR" == *"$IN_TDINTERNAL"* ]]; then
   cd ../../..
 else
