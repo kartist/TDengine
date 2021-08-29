@@ -43,7 +43,7 @@ cd .
 CODE_DIR=`dirname $0`
 CODE_DIR=`pwd`
 
-IN_TDINTERNAL="community"
+IN_TDINTERNAL="tmpjck"
 if [[ "$CODE_DIR" == *"$IN_TDINTERNAL"* ]]; then
   cd ../../..
 else
